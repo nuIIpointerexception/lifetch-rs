@@ -1,0 +1,25 @@
+[package]
+name = "template"
+version = "0.1.0"
+authors = ["bwte <contact@bwte.ml>"]
+edition = "2021"
+description = "An amazing rust template to kickstart only the best projects."
+documentation = "https://bwte.ml/"
+readme = "README.md"
+homepage = "https://bwte.ml/"
+repository = "https://bwte.ml/"
+license-file = "LICENSE"
+keywords = ["template", "rust"]
+categories = ["rust-templates"]
+publish = false
+
+[features]
+default = []
+
+[dependencies]
+
+[dev-dependencies]
+
+[profile.release]
+lto = true
+panic = "abort"
