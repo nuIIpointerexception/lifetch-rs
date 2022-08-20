@@ -3,7 +3,7 @@
 ![build](https://github.com/bwte/lightfetch/workflows/Rust/badge.svg)
 ![release](https://github.com/bwte/lightfetch/actions/workflows/release.yml/badge.svg)
 
-A blazingly fast command-line system information tool written in Rust ⚡.
+A extremely fast command-line system information tool written in Rust ⚡.
 
 ## Gallery
 
