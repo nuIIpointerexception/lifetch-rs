@@ -1,16 +1,16 @@
 [package]
-name = "template"
+name = "lightfetch"
 version = "0.1.0"
 authors = ["bwte <contact@bwte.ml>"]
 edition = "2021"
-description = "An amazing rust template to kickstart only the best projects."
+description = "⚡ An extremely fast cross-compatible system information tool."
 documentation = "https://bwte.ml/"
 readme = "README.md"
 homepage = "https://bwte.ml/"
 repository = "https://bwte.ml/"
 license-file = "LICENSE"
-keywords = ["template", "rust"]
-categories = ["rust-templates"]
+keywords = ["fetch", "system", "linux", "windows", "macos", "rust", "distro", "commandline", "command-line", "screenshot"]
+categories = ["system", "distro", "commandline", "command-line", "screenshot"]
 publish = false
 
 [features]

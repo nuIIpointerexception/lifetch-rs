@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "template"
+name = "lightfetch"
 version = "0.1.0"
