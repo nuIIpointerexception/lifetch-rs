@@ -38,4 +38,4 @@ Found a problem or have a suggestion? Feel free to open an issue.
 
 ## License
 
-This template itself is licensed under the [GGPL3 license](LICENSE) and includes this as the default project license.
+This template itself is licensed under the [GGPL3 license](LICENSE) and includes this as the DEFAULT project license.

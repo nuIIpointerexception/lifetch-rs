@@ -1,0 +1,9 @@
+pub mod cpu;
+pub mod distro;
+pub mod gpu;
+pub mod memory;
+pub mod packages;
+pub mod shell;
+pub mod terminal;
+pub mod uptime;
+pub mod user;

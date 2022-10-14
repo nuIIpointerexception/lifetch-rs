@@ -1,7 +1,7 @@
 [package]
-name = "lightfetch"
+name = "hyperfetch"
 version = "0.1.0"
-authors = ["bwte <contact@bwte.ml>"]
+authors = ["seek <contact@seek.code>"]
 edition = "2021"
 description = "⚡ An extremely fast cross-compatible system information tool."
 documentation = "https://bwte.ml/"
@@ -9,17 +9,37 @@ readme = "README.md"
 homepage = "https://bwte.ml/"
 repository = "https://bwte.ml/"
 license-file = "LICENSE"
-keywords = ["fetch", "system", "linux", "windows", "macos", "rust", "distro", "commandline", "command-line", "screenshot"]
-categories = ["system", "distro", "commandline", "command-line", "screenshot"]
+keywords = ["info", "system", "info", "tool", "fetch"] # TODO: Check if they are available on crate.io.
+categories = ["info", "system", "info", "tool", "fetch"] # TODO: Replace those, they don't exist in the crate.io registry.
 publish = false
 
 [features]
-default = []
+DEFAULT = []
 
 [dependencies]
+image = "0.24.3"
 
 [dev-dependencies]
 
+[profile.dev]
+opt-level = 0
+debug = false
+debug-assertions = false
+overflow-checks = false
+lto = false
+rpath = false
+codegen-units = 16
+panic = "abort"
+incremental = true
+
 [profile.release]
+strip = "symbols"
+opt-level = "s"
+debug = false
+debug-assertions = false
+overflow-checks = false
+incremental = false
+codegen-units = 1
+rpath = false
 lto = true
 panic = "abort"
